@@ -7,5 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'first-angular-app';
-  name = 'Doruk ÖZÜDOĞRU'
+  name = 'Doruk Özüdoğru';
+  items = [
+    { description: "Kahvaltı", action: "No"},
+    { description: "Sinema", action: "No"},
+    { description: "Spor", action: "No"},
+    { description: "Ders Çalışma", action: "No"},
+  ];
 }
